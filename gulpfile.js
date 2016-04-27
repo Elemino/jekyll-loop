@@ -6,7 +6,7 @@ var cp          = require('child_process');
 var jade        = require('gulp-jade');
 
 var messages = {
-    jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
+    jekyllBuild: '<span style="color: white">Running:</span> $ jekyll build'
 };
 
 
