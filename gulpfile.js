@@ -3,7 +3,7 @@ var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
-var jade        = require('gulp-jade');
+var pug = require('gulp-pug');
 
 var messages = {
     jekyllBuild: '<span style="color: white">Running:</span> $ jekyll build'
@@ -68,10 +68,11 @@ gulp.task('sass', function () {
 * Jade Task
 */
 
-gulp.task('jade', function(){
-  return gulp.src('_jadefiles/*.jade')
-  .pipe(jade())
-  .pipe(gulp.dest('_includes'));
+gulp.task('views', function buildHTML() {
+  return gulp.src('views/*.pug')
+  .pipe(pug({
+    // Your options in here.
+  }))
 });
 
 
