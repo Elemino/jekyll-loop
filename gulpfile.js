@@ -3,11 +3,7 @@ var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
-<<<<<<< HEAD
 var pug        = require('gulp-pug');
-=======
-var pug = require('gulp-pug');
->>>>>>> a2ab72b384885f97ca7a23f11b0d4ca1f2a1c31c
 
 var messages = {
     jekyllBuild: '<span style="color: white">Running:</span> $ jekyll build'
@@ -72,28 +68,14 @@ gulp.task('sass', function () {
 * Jade Task
 */
 
-<<<<<<< HEAD
 gulp.task('pug', function(){
     return gulp.src('_pugfiles/*.pug')
     .pipe(pug())
     .pipe(gulp.dest('_includes'))
-=======
-gulp.task('views', function buildHTML() {
-  return gulp.src('views/*.pug')
-  .pipe(pug({
-    // Your options in here.
-  }))
->>>>>>> a2ab72b384885f97ca7a23f11b0d4ca1f2a1c31c
 });
 
 
 
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> a2ab72b384885f97ca7a23f11b0d4ca1f2a1c31c
 /**
  * Watch scss files for changes & recompile
  * Watch html/md files, run jekyll & reload BrowserSync
