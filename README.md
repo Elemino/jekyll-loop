@@ -1,7 +1,9 @@
-jekyll-gulp-sass-browser-sync-pug
-=============================
+A starter project including full setup for Jekyll, Pug, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
 
-A starter project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
+
+##Basic boilerplate is ready in master branch.
+
+##More development and testing is done in gh-pages branch.  
 
 ## System Preparation
 
