@@ -1,7 +1,8 @@
 ##A starter project including full setup for Jekyll, Pug, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
 
 
-Basic boilerplate is ready in master branch.More development and testing is done in gh-pages branch.  
+1. Basic boilerplate is ready in master branch. 
+2. More development and testing is done in the gh-pages branch.  
 
 # System Preparation
 
