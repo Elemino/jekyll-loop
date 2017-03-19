@@ -1,10 +1,10 @@
-## Boilerplate including full setup for Jekyll, Pug, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
+# Boilerplate including full setup for Jekyll, Pug, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
 
 
 1. Basic boilerplate is ready in master branch. 
 2. More development and testing is done in the gh-pages branch.  
 
-# System Preparation
+## System Preparation
 
 To use this starter project, you'll need the following things installed on your machine.
 
@@ -12,12 +12,12 @@ To use this starter project, you'll need the following things installed on your 
 2. [NodeJS](http://nodejs.org) - use the installer.
 3. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)
 
-# Local Installation
+## Local Installation
 
 1. Clone this repo, or download it into a directory of your choice.
 2. Inside the directory, run `npm install`.
 
-# Usage
+## Usage
 
 **development mode**
 
