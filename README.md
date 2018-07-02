@@ -1,4 +1,4 @@
-# Boilerplate including full setup for Jekyll, Pug, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
+## Full boilerplate setup for Jekyll, Pug, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
 
 
 1. Basic boilerplate is ready in master branch. 
